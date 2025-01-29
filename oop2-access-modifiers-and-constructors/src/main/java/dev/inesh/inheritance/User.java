@@ -9,9 +9,9 @@ public class User {
     public User() {
         System.out.println("User no-arg constructor");
     }
-    public User(int id, String name, String password, String email) {
+    public User(String name, String password, String email) {
+        this();
         System.out.println("User all-arg constructor");
-        this.id = id;
         this.name = name;
         this.password = password;
         this.email = email;
